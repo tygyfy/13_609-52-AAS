@@ -1,4 +1,12 @@
 .desktop-navigation {
+    position: fixed;
+    width: 100%;
+    background-color: $white;
+    z-index: 1;
+    box-shadow: $box-shadow;
+}
+
+.desktop-navigation__wrap {
     padding: 22px 0;
     display: flex;
     align-items: center;
@@ -8,18 +16,20 @@
     }
 }
 
-.desktop-navigation list {
+.navigation__list {
     display: flex;
-    gap: 50px;
+    gap: 51px;
     @media (max-width: $breakpoint-xl) {
-        gap: 30px;
+        gap: 30px;    
     }
 }
-.desktop-navigation__list-element_active {
+
+.navigation__list-element_active {
     font-weight: 500;
 }
 
-.desktop-navigation__buttons {
+.navigation__buttons {
     display: flex;
     gap: 14px;
+    
 }
