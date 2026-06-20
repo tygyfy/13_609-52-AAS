@@ -1,0 +1,27 @@
+.promo {
+    background: #F5F7FA;
+    padding: 96px 0;
+}
+
+.promo_content {
+    display: flex;
+    align-items: center;
+    gap: 111px;
+}
+
+.promo_group h1 {
+    font-size: 64px;
+    line-height: 76px;
+    font-weight: 600;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+}
+
+.promo_group h1 span {
+    color: #4CAF4F;
+}
+
+.promo_group p {
+    margin-bottom: 32px;
+}
+

@@ -1,0 +1,61 @@
+.achievements {
+
+    padding: 60px 0;
+    margin: 50px 0;
+    background: $light;
+
+}
+
+.achievements__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width: $breakpoint-xl) {
+            gap: 20px;
+        }
+    }
+
+.achievements__content-header {
+
+
+
+    p {
+        color: $dark
+    }
+
+}
+
+.achievements__content-group {
+
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    column-gap: 24px;
+    row-gap: 40px;
+
+}
+
+.achievements__item {
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+    h3 {
+
+        color: $gray;
+
+    }
+
+    p {
+
+        color: $base-color;
+
+    }
+
+}
+
+.achievements__item-text {
+    
+    color: $gray;
+
+}
